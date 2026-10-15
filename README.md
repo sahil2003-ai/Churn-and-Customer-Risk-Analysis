@@ -1,39 +1,26 @@
 # Customer Churn and Risk Analysis
 
-A customer analytics project focused on presenting customer demographics and risk-related indicators through a KPI dashboard.
+A dashboard project focused on customer demographics and risk-related KPIs, with a stakeholder-oriented summary of findings.
 
-## Objective
-Summarize customer characteristics and available risk indicators so stakeholders can investigate patterns and consider appropriate retention or service improvements.
+## Step-by-step workflow
 
-## Project Scope
-The original project brief calls for:
-- A dashboard built around defined KPIs
-- Customer demographic analysis
-- A concise stakeholder email summarizing findings and recommended actions
+1. Open `Churn and Customer Risk Analysis.pbix` in Power BI Desktop.
+2. Check the data source, refresh status, and available fields.
+3. Define the meaning of churn and customer risk from the dataset; do not assume they are the same outcome.
+4. Review KPI formulas, denominators, filters, and reporting windows.
+5. Compare customer groups and demographics using the report's available dimensions.
+6. Check whether patterns are driven by small groups, missing values, or inconsistent categories.
+7. Write a concise stakeholder summary: verified finding, evidence, recommended next step, and limitation.
+8. If a predictive model is included later, evaluate it separately using a baseline and held-out data.
 
-The exact churn definition, dataset, and risk measures should be confirmed from the files before reporting numerical results.
+## Tools & skills
+Power BI, customer analytics, KPI design, segmentation, data storytelling.
 
-## Suggested Analytical Workflow
-1. Inspect the dataset and define what constitutes churn or customer risk.
-2. Check missing values, duplicates, category consistency, and class balance.
-3. Calculate KPIs with documented denominators and time windows.
-4. Build dashboard views that compare customer groups without implying causation.
-5. Summarize verified findings, business impact, and recommended follow-up analysis.
+## Screenshots
+No screenshot files were found in the repository root. Add report images to `images/` and reference them here.
 
-## Tools
-- Dashboarding and data analysis tools used in the repository (document the exact tools and versions here).
+## Responsible interpretation
+Group-level relationships do not establish causation. Avoid using demographic correlations as the sole basis for decisions about individuals.
 
-## How to Review
-Open the dashboard and supporting files in this repository. Confirm the data source, KPI definitions, filters, and refresh requirements.
-
-## Skills Demonstrated
-Customer analytics, KPI design, segmentation, dashboard communication, and translating analysis into stakeholder recommendations.
-
-## Recommended Enhancements
-- Clarify whether the project measures churn, risk, or both.
-- Add a data dictionary and KPI definitions.
-- Include dashboard screenshots and verified findings.
-- If a predictive model is present, document the split strategy, baseline, precision/recall, and limitations.
-- Remove any personally identifying or sensitive customer information from screenshots.
-
-> This README describes the documented scope. It does not assert unverified churn rates or model performance.
+## Next improvements
+Add a data dictionary, exact KPI definitions, screenshots, and verified findings.
